@@ -34,7 +34,7 @@ $level-3: $level-2 + 2em;
   font-size: 0.9em;
 
   a {
-    padding: 0.5em $level-3;
+    padding: 0.25em $level-3;
     display: block;
     text-decoration: none;
     color: $black;
@@ -53,7 +53,7 @@ $level-3: $level-2 + 2em;
  * List item heading
  */
 .sidebar__item--heading {
-  padding: 1em $level-1;
+  padding: 0.25em $level-1;
 
   a {
     font-weight: bold;
@@ -64,7 +64,7 @@ $level-3: $level-2 + 2em;
  * List item sub-heading
  */
 .sidebar__item--sub-heading {
-  padding: 0.5em $level-2;
+  padding: 0.25em $level-2;
 
   a {
     color: #888;
@@ -77,6 +77,8 @@ $level-3: $level-2 + 2em;
 .sidebar__item--heading,
 .sidebar__item--sub-heading {
   position: relative;
+  margin-bottom: 0.25rem;
+  margin-top: 0.25rem;
 
   &:after {
     @include absolute($right: 2em, $top: 50%);

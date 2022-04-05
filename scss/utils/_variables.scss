@@ -2,11 +2,17 @@
 /// @type Color
 $pink: #dd5a6f;
 
+/// Charcoal
+/// @type Color
+$charcoal: #444;
 
 /// Purple
 /// @type Color
 $purple: #5c4863;
 
+/// Eggplant
+/// @type Color;
+$eggplant: #3f1833;
 
 /// Yellow
 /// @type Color
@@ -20,7 +26,7 @@ $black: #333;
 
 /// Primary color
 /// @type Color
-$primary-color: $pink;
+$primary-color: $eggplant;
 
 
 /// Primary color
@@ -75,7 +81,7 @@ $sidebar-width: 280px;
 
 /// Vertical rhythm
 /// @type Number
-$vertical-rhythm: 1.5rem;
+$vertical-rhythm: 0.5rem;
 
 
 /// Text font stack

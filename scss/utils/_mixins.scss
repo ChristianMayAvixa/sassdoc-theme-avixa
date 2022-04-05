@@ -105,10 +105,10 @@
 /// Mixin for cross-browser opacity (IE 8).
 /// Clamps the value between 0 and 1.
 /// @group cross-browser-support
-/// @requires {function} clamp
+/// @requires {function} clamp-old
 /// @param {Number} $opacity - Opacity level, between 0 and 1
 @mixin opacity($opacity) {
-  $opacity: clamp($opacity, 0, 1);
+  $opacity: clamp-old($opacity, 0, 1);
   -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$opacity * 100})';
   opacity: $opacity;
 }
@@ -131,7 +131,7 @@
 /// @requires {function} bottom-shadow
 /// @requires {variable} light-grey
 @mixin card($depth) {
-  $depth: clamp($depth, 1, 5);
+  $depth: clamp-old($depth, 1, 5);
   box-shadow: bottom-shadow($depth), top-shadow($depth);
   border: 1px solid $light-grey;
 }

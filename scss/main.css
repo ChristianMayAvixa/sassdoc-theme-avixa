@@ -182,7 +182,7 @@ body {
 a {
   transition: 0.15s;
   text-decoration: none;
-  color: #3f1833;
+  color: #444;
 }
 a:hover, a:hover code {
   color: #333;
@@ -192,14 +192,14 @@ a:hover, a:hover code {
  * Vertical rhythm
  */
 table p {
-  margin: 0 0 0.1666666667rem;
+  margin: 0 0 0.5rem;
 }
 
 /**
  * Code
  */
 :not(pre) > code {
-  color: #3f1833;
+  color: #444;
   white-space: nowrap;
   font-weight: normal;
 }
@@ -278,7 +278,7 @@ table p {
   list-style: none;
   line-height: 1.5;
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .list-inline li {
@@ -325,7 +325,7 @@ table p {
   left: 280px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   padding: 1em 0;
-  background: #3f1833;
+  background: #444;
   color: #e0e0e0;
   z-index: 4000;
 }
@@ -485,7 +485,7 @@ table p {
   font-size: 0.9em;
 }
 .sidebar__item a {
-  padding: 0.25em 4.5em;
+  padding: 0.5em 4.5em;
   display: block;
   text-decoration: none;
   color: #333;
@@ -501,7 +501,7 @@ table p {
  * List item heading
  */
 .sidebar__item--heading {
-  padding: 0.25em 1.5em;
+  padding: 1em 1.5em;
 }
 .sidebar__item--heading a {
   font-weight: bold;
@@ -511,7 +511,7 @@ table p {
  * List item sub-heading
  */
 .sidebar__item--sub-heading {
-  padding: 0.25em 2.5em;
+  padding: 0.5em 2.5em;
 }
 .sidebar__item--sub-heading a {
   color: #888;
@@ -523,8 +523,6 @@ table p {
 .sidebar__item--heading,
 .sidebar__item--sub-heading {
   position: relative;
-  margin-bottom: 0.25rem;
-  margin-top: 0.25rem;
 }
 .sidebar__item--heading:after,
 .sidebar__item--sub-heading:after {
@@ -651,11 +649,11 @@ table p {
  */
 .main__heading--secondary {
   font-size: 3em;
-  color: #3f1833;
+  color: #444;
   text-transform: uppercase;
   font-weight: bold;
   padding-top: 0;
-  margin-bottom: -1rem;
+  margin-bottom: -3rem;
   position: relative;
 }
 .main__heading--secondary .container {
@@ -670,14 +668,14 @@ table p {
   right: 0;
   bottom: 0.15em;
   height: 0.2em;
-  background-color: #3f1833;
+  background-color: #444;
 }
 
 /**
  * Main descriptions
  */
 .main__description {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /**
@@ -736,7 +734,7 @@ table p {
 }
 
 .main__section {
-  margin-bottom: 1.5rem;
+  margin-bottom: 4.5rem;
 }
 
 /**
@@ -744,7 +742,7 @@ table p {
  */
 .item__heading {
   color: #333;
-  margin: 1.5rem 0 0.5rem 0;
+  margin: 4.5rem 0 1.5rem 0;
   position: relative;
   font-size: 2em;
   font-weight: 300;
@@ -755,14 +753,14 @@ table p {
  * Name
  */
 .item__name {
-  color: #3f1833;
+  color: #444;
 }
 
 /**
  * Code blocks
  */
 .item__example {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .item__example,
@@ -829,7 +827,7 @@ table p {
  */
 .item__anchor {
   font-size: 0.6em;
-  color: #89346f;
+  color: #777777;
 }
 @media (min-width: 801px) {
   .item__anchor {
@@ -886,7 +884,7 @@ table p {
 .item__sub-heading {
   color: #333;
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
   font-size: 1.2em;
 }
 
@@ -962,7 +960,7 @@ table p {
 }
 
 .item__description {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 li.item__description {
@@ -977,7 +975,7 @@ li.item__description {
 .item__code-wrapper {
   position: relative;
   clear: both;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .color-preview--inline {

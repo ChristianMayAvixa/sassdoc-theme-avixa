@@ -1,15 +1,15 @@
 {
-  "name": "sassdoc-theme-default",
-  "description": "SassDoc's default theme",
-  "title": "SassDoc Default Theme",
-  "author": "SassDoc team",
-  "version": "2.8.4",
+  "name": "sassdoc-theme-avixa-web",
+  "description": "SassDoc theme for AVIXA",
+  "title": "SassDoc Theme AVIXA",
+  "author": "ChristianMay",
+  "version": "1.0.10",
   "keywords": [
     "sassdoc-theme"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/SassDoc/sassdoc-theme-default.git"
+    "url": "https://github.com/ChristianMayAvixa/sassdoc-theme-avixa.git"
   },
   "license": "MIT",
   "files": [
@@ -31,13 +31,13 @@
     "fs-extra": "^2.0.0",
     "html-minifier": "^3.5.21",
     "nunjucks": "^3.1.7",
+    "sass": "^1.49.11",
     "sassdoc-extras": "^2.5.0"
   },
   "devDependencies": {
     "babel-cli": "^6.22.2",
     "babel-plugin-transform-runtime": "^6.22.0",
     "babel-preset-latest": "^6.22.0",
-    "node-sass": "^4.11.0",
     "standard": "^8.6.0",
     "uglify-js": "^2.4.15"
   }
